@@ -1,3 +1,2 @@
-responses==0.13.2
 requests>=2.24.0
 six>=1.9.0

@@ -68,7 +68,7 @@ setup(
     # for example:
     # $ pip install -e .[dev,test]
     extras_require={
-        'test': ['pytest-cov', 'pytest', 'responses'],
+        'test': [],
     },
 
     package_data={

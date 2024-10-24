@@ -17,7 +17,7 @@ dependencies = [dependency.strip()
 setup(
     name='gerencianet',
 
-    version='3.0.0',
+    version='1.1.0.tsmx',
 
     description='Module for integration with Gerencianet API',
     long_description=long_description,
@@ -26,7 +26,7 @@ setup(
     url='https://github.com/gerencianet/gn-api-sdk-python',
 
     # Author details
-    author='Danniel Hugo, Cecilia Deveza, Francisco Thiene, Thomaz Feitoza, Talita Campos, Matheus Rodrigues, Palloma Brito',
+    author='Danniel Hugo, Cecilia Deveza, Francisco Thiene, Thomaz Feitoza, Talita Campos ',
     author_email='suportetecnico@gerencianet.com.br',
 
     # Choose your license
@@ -52,8 +52,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.9'
+        'Programming Language :: Python :: 3.5'
     ],
 
     # What does your project relate to?
@@ -68,7 +67,7 @@ setup(
     # for example:
     # $ pip install -e .[dev,test]
     extras_require={
-        'test': [],
+        'test': ['pytest-cov', 'pytest', 'responses'],
     },
 
     package_data={
